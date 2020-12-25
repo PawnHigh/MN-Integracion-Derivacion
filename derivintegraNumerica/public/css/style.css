@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200&display=swap');
+
+.portadaTopography {
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 58, 97,.7);
+    /* color: rgb(68, 134, 218,.7); */
+    padding-bottom: 20px;
+}
+
+.portadaTopography2 {
+    font-family: 'Poiret One', cursive;
+    /* color: rgb(111, 178, 184, .5); */
+    color: rgb(38, 104, 188,.8);
+    padding-bottom: 35px;
+}
+
+.portadaImage {
+    height: 100vh;
+    background-image: url(../assets/furniture1_img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.portadaImage::before {
+    content:'';
+	position: relative;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background-color: rgba(0,0,0,.2);
+    box-shadow: inset 0px 0px 20px 2px rgb(0,0,0,.4);
+}
+
+@media (max-width: 920px) {
+    .portadaImage {
+        background-image: url(../assets/furniture1_img2.png);
+    }
+}
+
+@media (max-width: 710px) {
+    .portadaCentrarResponsive {
+        text-align: center;
+        justify-content: center !important;
+    }
+    .portadaImage {
+        background-image: url(../assets/furniture2_imgPhone.png);
+        /* background-image: url(../assets/backgorun4.jpg); */
+    }
+    .reducirLogo {
+        width: 115px;
+        height: auto;
+    }
+    .portadaTopography {
+        font-size: 44px !important;
+        font-family: 'Righteous', cursive;
+    }
+    .MuiGridListTile-profile {
+        height: 184px !important;
+    }
+    .MuiGridListTile-noRegister {
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+.MuiAppBar-colorPrimary {
+    background-color: white !important;
+    color: black !important;
+}
+
+.MuiPaper-elevation4 { /* NavBar de Drawer */
+    box-shadow: 0px 1px 15px 0px rgb(0,0,0,.1) !important;
+}
+
+.MuiPaper-elevation1 {
+    box-shadow: 0px 0px 6px 1px rgb(0,0,0,.1) !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-active, /* color icono Stepper de postProduct */
+.MuiFormLabel-root.Mui-focused { /* color Label de postProduct */
+    color: rgb(205, 18, 47) !important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed { /* color icono Stepper en check de postProduct */
+    color: rgb(205, 18, 47,.6) !important;
+}
+.MuiInput-underline::after { /* border label color de postProduct */
+    border-bottom: 2px solid rgb(195, 18, 37) !important;
+}
+.MuiInput-underline:before { 
+    border-bottom: 2px solid rgb(148,148,148) !important;
+}
+.MuiInput-underline:before:hover {
+    border-bottom: 2px solid rgb(195, 18, 37) !important;
+}
+
+.MuiGridListImg { /* iniciotab */
+    border-radius: 8px;
+    box-shadow: 0px 0px 9px 1px rgb(0,0,0,.4);
+}
+
+.MuiGridListTile-tile { /* iniciotab */
+    border-radius: 8px;
+    background-color: transparent; 
+}
+
+.MuiGridListTile-profile {
+    height: 300px !important;
+}
+
+.MuiGridListTile-noRegister {
+    width: 50%;
+    height: auto;
+}
+
+#portada-shadow {
+    background-color: transparent !important;
+    box-shadow: 0px 0px black !important;
+}
+
+.portadaSaberMas {
+    color: white !important;
+    border: 0px solid rgb(255, 58, 97,.5) !important;
+    background-color: rgb(255, 58, 97,.6) !important;
+    /* font-family: 'Mukta Mahee', sans-serif !important; */
+    flex-grow: 1;
+}
+
+.googleButton {
+    /* color: white !important; */
+    border: 1px solid rgb(0, 0, 0,.1) !important;
+    box-shadow: 0px 0px 4px 1px rgb(0,0,0,.1);
+    /* background-color: rgb(55, 108, 207,.5) !important; */
+    font-family: 'Mukta Mahee', sans-serif !important;
+    padding: 0%;
+}
+
+.facebookButton {
+    color: white !important;
+    box-shadow: inset 0px 0px 2px 1px rgb(0,0,0,.1);
+    background-color: rgb(25, 118, 210) !important;
+    font-family: 'Mukta Mahee', sans-serif !important;
+    padding: 0%;
+}
+
+.whatsAppButton {
+    /* color: white !important; */
+    border: 1px solid rgb(0, 0, 0,.1) !important;
+    box-shadow: 0px 0px 4px 1px rgb(0,0,0,.1);
+    /* background-color: rgb(55, 108, 207,.5) !important; */
+    font-family: 'Mukta Mahee', sans-serif !important;
+    padding: 0%;
+}
+
+.noActionsColor {
+    color: rgb(255, 58, 97) !important;
+}
+
+.inicioFontFamilyPortada { /* portada.js */
+    color : white !important;
+    border: 0px solid rgb(38, 104, 138,.5) !important;
+    background-color: rgb(38, 104, 188,.4) !important;
+    /* font-family: 'Mukta Mahee', sans-serif !important; */
+}
+
+.inicioFontFamily {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.menuColorIcons {
+    color: rgb(117, 117, 117);
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.producttabCenter {
+    margin: 0px !important;
+    flex-basis: auto !important;
+}
+
+@media (max-width: 997px){
+    .producttabCenterImg {
+        display: grid !important;
+    }
+}
+
+.resaltar {
+    margin-top: 20px !important;
+}
+
+.contactotabGrid {
+    padding: 10px;
+}
+
+.contactotabTopography {
+    font-family: 'Petrona', serif;
+    color: rgb(255, 58, 97);
+    padding-bottom: 20px;
+}
+
+.profiletabTopography {
+    font-family: 'Petrona', serif;
+    color: rgb(255, 58, 97);
+}
+
+.effect-admin-permission-denied { /* efecto en admin */
+    animation: fadeIn0 2s ease;
+}
