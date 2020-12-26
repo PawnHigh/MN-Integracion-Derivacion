@@ -3,14 +3,14 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAkdCuJo8GrXIbJZqhxULlYOMgwk-VaoO8",
-  authDomain: "mn-deriva-integra.firebaseapp.com",
-  databaseURL: "https://mn-deriva-integra.firebaseio.com",
-  projectId: "mn-deriva-integra",
-  storageBucket: "mn-deriva-integra.appspot.com",
-  messagingSenderId: "327116363495",
-  appId: "1:327116363495:web:8731562e6c1d693b44f442",
-  measurementId: "G-V6FD2MDD21"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: ",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 // Initialize Firebase
